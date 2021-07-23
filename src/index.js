@@ -5,22 +5,6 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
-// const tmi = require("react-tmi");
-// const setusername = "artyknots";
-// const twclient = new tmi.Client({
-//   options: { debug: true },
-//   channels: [setusername],
-// });
-
-// twclient.connect();
-
-//   // On message do stuff
-//   twclient.on("message", (channel, tags, message, self) => {
-//     if (self) return;
-
-//     console.log(`${tags["display-name"]}: ${message}`);
-//   });
-
 ReactDOM.render(
   <React.StrictMode>
     <App />
