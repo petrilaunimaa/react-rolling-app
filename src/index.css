@@ -76,7 +76,8 @@ h1 {
 .chatline p,
 .rolleduser,
 .rolleduser p {
-  line-height: 1;
+  line-height: 125%;
+	font-size:105%;
   margin: 0;
   padding: 2px;
 }
@@ -116,6 +117,7 @@ h1 {
   padding-bottom: 20px;
   margin-bottom: 0px;
   margin-top: 20px;
+	padding-left:1em;
 }
 
 .keyword-input {
@@ -177,8 +179,13 @@ h1 {
 		background:#000;
 		margin:none;
   }
-	.keyword-input, .header, .chats, .maincontent{
+	.keyword-input, .header, .chats, .maincontent {
 		padding-left:2em;
+		padding-right:2em;
+	}
+
+	.pickedpeeps {
+		padding-left:3em;
 		padding-right:2em;
 	}
 }
