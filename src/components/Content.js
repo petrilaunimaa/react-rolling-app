@@ -8,7 +8,7 @@ const Content = ({ chatMessages, eligibleUsers, onDelete, setKeyword, onChangeSt
   return (
     <>
       <Settings onAddKeyword={setKeyword} picked={picked} onChangeStreamer={onChangeStreamer} onReroll={onReroll} />
-      <Row>
+      <Row className="maincontent">
         <Col lg>
           <p className="sectiontitle">Eligible users</p>
           <div className="chats">

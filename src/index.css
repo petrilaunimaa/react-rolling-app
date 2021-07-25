@@ -176,7 +176,9 @@ h1 {
 		border:none;
 		background:#000;
 		margin:none;
+  }
+	.keyword-input, .header, .chats, .maincontent{
 		padding-left:2em;
 		padding-right:2em;
-  }
+	}
 }
